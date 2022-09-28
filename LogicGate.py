@@ -14,7 +14,7 @@ def OR(A, B):
 
 def NOR(A, B):
     return NAND(True, NAND(NAND(True, A), NAND(True, B)))
-open(file="a.txt", mode = "w")
+
 def XOR(A, B):
     return NAND(NAND(A, NAND(A, B)), NAND(B, NAND(A, B)))
 
